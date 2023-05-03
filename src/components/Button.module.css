@@ -13,7 +13,11 @@
 
 }
 
+.calcBtns:hover {
+    background-color: rgb(238, 186, 14);
+}
+
 .res {
     width: 180px;
-    background: orange;
+    background: rgb(151, 202, 128);
 }

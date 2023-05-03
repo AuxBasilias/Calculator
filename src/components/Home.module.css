@@ -13,11 +13,10 @@
 }
 
 .inner {
-    background-color: red;
     height: 640px;
     width: 425px;
     border-radius: 30px;
-    background-color: #f1eded;
+    background-color: #faf5f5;
     box-shadow: 20px 20px 60px #bebebe,
         -20px -20px 60px #ffffff;
 
@@ -44,7 +43,12 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: right;
+    padding-top: 18px;
 
+}
+
+.resbox::-webkit-scrollbar {
+    display: none;
 }
 
 .btns {
